@@ -1,0 +1,100 @@
+[
+  {
+    "id": "2417377-aubasani-kitchen",
+    "name": "Aubasani Bistro",
+    "location": "Mahallah Ali, Level 1",
+    "openHours": "8:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2417377-aub-1",
+        "name": "Chicken Shawarma Wrap",
+        "description": "Spiced grilled chicken wrapped in pita with garlic sauce and pickles",
+        "price": 8.5,
+        "category": "Wraps",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-2",
+        "name": "Beef Falafel Wrap",
+        "description": "Crispy falafel patties and seasoned beef wrapped with tahini sauce",
+        "price": 9.0,
+        "category": "Wraps",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-3",
+        "name": "Mandi Rice with Lamb",
+        "description": "Traditional slow-cooked fragrant rice served with tender lamb shank",
+        "price": 15.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-4",
+        "name": "Kabsah Chicken Rice",
+        "description": "Aromatic spiced rice served with roasted half chicken and tomato salsa",
+        "price": 12.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-5",
+        "name": "Hummus with Pita Bread",
+        "description": "Creamy chickpea dip topped with olive oil and served with warm pita",
+        "price": 5.0,
+        "category": "Sides",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-6",
+        "name": "Garlic Fries",
+        "description": "Crispy golden potato fries tossed in garlic butter and herbs",
+        "price": 4.0,
+        "category": "Sides",
+        "available": true
+      },
+      {
+        "id": "2417377-aub-7",
+        "name": "Fresh Mango Lassi",
+        "description": "Chilled yogurt drink blended with sweet ripe mangoes",
+        "price": 4.5,
+        "category": "Drinks",
+        "available": false
+      },
+      {
+        "id": "2417377-aub-8",
+        "name": "Fresh Mint Lemonade",
+        "description": "Refreshing freshly squeezed lemonade blended with mint leaves and ice",
+        "price": 3.5,
+        "category": "Drinks",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "2417377-kafe-aminah",
+    "name": "Kafe Mahallah Aminah",
+    "location": "Mahallah Aminah, Ground Floor",
+    "openHours": "8:00 am - 9:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2417377-ami-1",
+        "name": "Nasi Ayam Penyet",
+        "description": "Smashed fried chicken with sambal and rice",
+        "price": 9.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417377-ami-2",
+        "name": "Air Bandung",
+        "description": "Rose syrup with milk",
+        "price": 3.0,
+        "category": "Drinks",
+        "available": true
+      }
+    ]
+  }
+]

@@ -7,4 +7,8 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - none
 
 ## Week 2
+- none
+
+## Week 3
+- 
 
