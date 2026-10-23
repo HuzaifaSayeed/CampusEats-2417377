@@ -28,9 +28,26 @@ function App() {
         return res.json()
       })
       .then((data) => {
-        setVendors(data)
-        if (data.length > 0) {
-          setSelectedVendorId((prev) => prev || data[0].id)
+        const normalizedVendors = Array.isArray(data)
+          ? data.reduce((acc, vendor) => {
+              const key = vendor.id ?? vendor.name
+              if (acc.some((existing) => (existing.id ?? existing.name) === key)) {
+                return acc
+              }
+
+              acc.push({
+                ...vendor,
+                menu: Array.isArray(vendor.menu)
+                  ? Array.from(new Map((vendor.menu || []).map((item) => [item.id ?? item.name, item])).values())
+                  : []
+              })
+              return acc
+            }, [])
+          : []
+
+        setVendors(normalizedVendors)
+        if (normalizedVendors.length > 0) {
+          setSelectedVendorId((prev) => prev || normalizedVendors[0].id)
         }
       })
       .catch((err) => {
