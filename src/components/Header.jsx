@@ -1,12 +1,15 @@
-function Header({ cartCount, onShowMenu, onShowCart }) {
+import { NavLink } from 'react-router'
+
+function Header({ cartCount }) {
   return (
     <header className="header">
-      <h1 className="logo" style={{ cursor: 'pointer' }} onClick={onShowMenu}>CampusEats</h1>
+      <NavLink className="logo-link logo" to="/">CampusEats</NavLink>
       <nav className="nav">
-        <button type="button" className="link" onClick={onShowMenu}>Vendors</button>
-        <button type="button" className="link cart" onClick={onShowCart}>
+        <NavLink className="link" to="/" end>Vendors</NavLink>
+        <NavLink className="link" to="/orders">My Orders</NavLink>
+        <NavLink className="link cart" to="/cart">
           Cart <span className="badge">{cartCount}</span>
-        </button>
+        </NavLink>
       </nav>
     </header>
   )
