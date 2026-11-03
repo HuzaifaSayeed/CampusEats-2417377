@@ -18,5 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Vendor Credits
 
-Vendor 3 from Matric Number 2414121: ShaqNomNom
-Vendor 4 from Matric Number 2411147: Saruwar Faruq Cafe
+- Vendor 3 from Matric Number 2414121: ShaqNomNom
+- Vendor 4 from Matric Number 2411147: Saruwar Faruq Cafe
